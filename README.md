@@ -23,17 +23,19 @@ Terraform Module to Generate the Server IDs for MAP Project
 
 ### aws_lambda_function
 * map_lambda: Lambda function to be triggered by s3 once any csv has been uploade, It creates MAPLambdaFunction with lambda_function_v2 Handler.
+
 There are 3 environment variables should passsed to this lambda functions:
-- AWS_MIGRATION_PROJECT_ID
-- S3_REGION
-- AWS_ACCOUNT_ID
+1. AWS_MIGRATION_PROJECT_ID
+2. S3_REGION
+3. AWS_ACCOUNT_ID
 
 
 ### aws_lambda_function
 * map_lambda_create_folder: Lambda function for the Input folder creation, It creates MAPLambdaFunctionCreate with folder_creation_lambda_function_v2 Handler.
+
 There are 2 environment variables should passsed to this lambda functions:
-- INPUT_BUCKET_NAME
-- INPUT_FOLDER
+1. INPUT_BUCKET_NAME
+2. INPUT_FOLDER
 
 
 ### aws_s3_bucket
