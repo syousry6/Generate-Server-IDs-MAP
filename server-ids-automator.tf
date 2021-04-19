@@ -77,10 +77,6 @@ data "archive_file" "zipit_create" {
   source_dir  = "${path.module}/folder_creation_lambda_function_v2"
 }
 
-#
-#  user_data                 = data.template_file.user_data.rendered
-#}
-#
 #data "template_file" "user_data" {
 #emplate = "${file("${path.module}/folder_creation_lambda_function_v2/folder_creation_lambda_function_v2.py")}"
 #}
