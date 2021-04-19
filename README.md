@@ -2,7 +2,7 @@
 Terraform Module to Generate the Server IDs for MAP Project.
 
 # **Diagram:**
-![Image](image.png)
+![Image](image1.png)
 
 #### Terraform Resources
 
