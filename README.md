@@ -5,9 +5,8 @@ Terraform Module to Generate the Server IDs for MAP Project.
 #### Terraform Resources
 
 - IAM Policy Document 
-- aws_s3_bucket
-- 2 * aws_lambda_function
-- aws_lambda_permission
+- S3 Bucket
+- 2 * Lambda
 
 #### A top-level directory layout
     .
