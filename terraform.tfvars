@@ -1,0 +1,6 @@
+function_name = "MAPLambdaFunction"
+handler_name  = "lambda_function_v2"
+handler_name_2 = "folder_creation_lambda_function_v2"
+runtime       = "python3.8"
+timeout       = "900"
+function_create_name = "MAPLambdaFunctionCreate"
